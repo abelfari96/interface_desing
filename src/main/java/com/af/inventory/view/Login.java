@@ -145,6 +145,7 @@ public class Login extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
+        txtUser.setBackground(new java.awt.Color(255, 255, 255));
         txtUser.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         txtUser.setBorder(null);
         txtUser.setPreferredSize(new java.awt.Dimension(64, 30));
@@ -193,6 +194,7 @@ public class Login extends javax.swing.JFrame {
             .addComponent(signInBtnLabel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
+        passwordTxt.setBackground(new java.awt.Color(255, 255, 255));
         passwordTxt.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         passwordTxt.setBorder(null);
         passwordTxt.setPreferredSize(new java.awt.Dimension(90, 30));
@@ -227,7 +229,7 @@ public class Login extends javax.swing.JFrame {
                 .addComponent(passwordTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(3, 3, 3)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(signInBtnPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(forgetPasswordLabel)
